@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div.static{
+        position: static;
+        border: 5px solid black;
+        background-color: burlywood;
+    }
+
+    div.relative{
+        position: relative;
+        left: 200px;
+        border: 5px solid black;
+        background-color: aquamarine;
+    }
+
+    div.fixed{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+       width: 200px;
+        border: 5px solid black;
+        background-color: cadetblue;
+    }
+
+    div.absolute_ancestor{
+        position: relative;
+        height: 200px;
+        width: 400px;
+        border: 5px solid black;
+        background-color: rgb(227, 177, 177);
+    }
+    div.absolute{
+        position: absolute;
+        height: 100px;
+        width:200;
+        top: 80px;
+        right: 20px;
+        border: 5px solid black;
+        background-color: rgb(180, 78, 78);
+    }
+
+    div.sticky{
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        padding: 5px;
+        border: 5px solid black;
+        background-color: rgb(94, 95, 129);
+        width: 500px;
+    }
+
+
+</style>
+<body>
+    <h1 style="text-align: center;">Position Properties</h1>
+    <h3>Static properties</h3>
+    <div class="static">
+      static example
+    </div>
+
+    <h3>Relative properties</h3>
+    <div class="relative">
+      relative example
+    </div>
+
+    <h3>Fixed properties</h3>
+    <div class="fixed">
+      fixed example
+    </div>
+
+    <h3>Absolute properties</h3>
+    <div class="absolute_ancestor">
+      relative example
+      <div class="absolute">absolute example</div>
+    </div>
+
+    <h3>Sticky properties</h3>
+    <div class="sticky">
+      Sticky example
+    </div>
+    <p style="font-size: 100px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quod in quae quia itaque illo quibusdam provident molestias veniam facere. Ea impedit ullam nulla. Alias quas reprehenderit illum. Reiciendis, iure?</p>
+    
+
+</body>
+</html>

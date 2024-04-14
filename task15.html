@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+</head>
+<style>
+    #customers{
+        font-family: 'Times New Roman', Times, serif;
+        border: 2px solid black;
+        width: 1200px;
+        height: 450px;
+        padding: 2px;
+    }
+    #customers td, #customers th{
+        vertical-align: bottom;
+    }
+    #customers th{
+        text-align: center;
+        background-color: rgb(18, 92, 93);
+        color: black;
+    }
+    #customers td{
+        text-align: center;
+    }
+    #customers tr:nth-child(even){
+        background-color: rgb(205, 217, 217);
+    }
+
+    #customers tr:hover{
+        background-color: rgb(65, 121, 126);
+    }
+
+</style>
+<body>
+    <h1>CSS Table</h1>
+    <div style="overflow: auto;">
+    <table id="customers">
+        <tr>
+         <th>Name</th>
+         <th>Age</th>
+         <th>Country</th>
+         <th>Points</th>
+         <th>Points</th>
+         <th>Points</th>
+         <th>Points</th>
+         <th>Points</th>
+        </tr>
+        <tr>
+            <td>Tom</td>
+            <td>23</td>
+            <td>US</td>
+            <td>92</td>
+            <td>20</td>
+            <td>44</td>
+            <td>90</td>
+            <td>54</td>
+        </tr>
+        <tr>
+            <td>Jerry</td>
+            <td>22</td>
+            <td>London</td>
+            <td>43</td>
+            <td>98</td>
+            <td>72</td>
+            <td>89</td>
+            <td>39</td>
+        </tr>
+        <tr>
+            <td>Head</td>
+            <td>25</td>
+            <td>Turkey</td>
+            <td>33</td>
+            <td>78</td>
+            <td>90</td>
+            <td>45</td>
+            <td>44</td>
+        </tr>
+        <tr>
+            <td>Virat</td>
+            <td>27</td>
+            <td>India</td>
+            <td>29</td>
+            <td>98</td>
+            <td>75</td>
+            <td>80</td>
+            <td>54</td>
+        </tr>
+        <tr>
+            <td>Zaid</td>
+            <td>28</td>
+            <td>Pakistan</td>
+            <td>90</td>
+            <td>68</td>
+            <td>89</td>
+            <td>56</td>
+            <td>44</td>
+        </tr>
+    </table>
+</div>
+    
+</body>
+</html>
