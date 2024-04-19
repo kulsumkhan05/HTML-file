@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>navbar</title>
+  </head>
+  <body style="margin: 20px;">
+    <style>
+        .container-fluid{
+            border: 3px solid rgb(95, 95, 227) ;
+            background-color:rgb(95, 95, 227) ;
+            padding: 10px;
+            width: 1300px;
+            margin: 7px;
+        }
+        .d-flex{
+          padding-left: 90px;
+      
+        }
+        .n{
+          padding-left:240px;
+        }
+        .n1{
+          padding-left: 12px;
+        }
+        .fixed{
+          width: 100px;
+          border: 3px solid burlywood;
+          background-color: burlywood;
+        }
+        .sticky{
+          width: 100px;
+          border: 3px solid yellow;
+          background-color: yellow;
+        position: sticky;
+        }
+
+
+    </style>
+    <h1 style="text-align: center;">NAVBAR</h1>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="bimg.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          </a>
+          <a class="navbar-brand" href="#" style="color: white;">Docs</a>
+          <button class="navbar-toggler" type="button" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color:rgb(232, 232, 197);">Examles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color:rgb(232, 232, 197);">Icons</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color:rgb(232, 232, 197);">Themes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true" style="color:rgb(232, 232, 197);">Blogs</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="background-color: rgb(103, 103, 212);  "> 
+              <button class="btn btn-outline-success" type="submit" style="background-color:rgb(110, 103, 212); color:rgb(232, 232, 197);">Search</button>
+            </form>
+            <a class="n" href="#">
+              <img src="b2img.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            </a>
+            <a class="n1" href="#">
+              <img src="b3img.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            </a>
+          </div>
+        </div>
+      </nav>
+  </body>
+</html>
